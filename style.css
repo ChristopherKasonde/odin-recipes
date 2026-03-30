@@ -5,18 +5,26 @@
 }
 
 body {
-  background-color: midnightblue;
+  height: 100vh;
+  background-color: #191970;
   color: #fff;
   font-family: "Times New Roman", Times, serif;
   font-size: 1.1rem;
-  margin: 10px;
-  padding: 5px;
+}
+
+.container {
+  max-width: 100%;
+  width: 980px;
+  background-color: #3f3fa9;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 h1,
 h2,
 h3,
-h4 {
+h4,
+p {
   text-align: center;
 }
 
@@ -60,6 +68,7 @@ ol {
 .btn-home {
   text-decoration: none;
   color: #e72929;
+  font-size: 1.5em;
 }
 
 .center {
